@@ -1,72 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>Toya's Portfolio</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+  <title>Toya Portfolio</title>
   <style>
     body {
       font-family: Arial, sans-serif;
-      margin: 0;
-      background-color: #f7f7f7;
+      background-color: #f8f8f8;
       color: #333;
+      margin: 0;
       text-align: center;
     }
 
     header {
-      background-color: #222;
-      color: white;
-      padding: 40px 20px;
+      background-color: #f4a6b5;
+      padding: 40px;
     }
 
-    h1 {
+    header h1 {
       margin: 0;
-      font-size: 2.5rem;
     }
 
-    p {
-      font-size: 1.1rem;
-    }
-
-    .container {
-      padding: 30px 20px;
-    }
-
-    .projects {
-      margin-top: 20px;
+    section {
+      background-color: white;
+      margin: 20px auto;
+      padding: 20px;
+      max-width: 700px;
+      border-radius: 8px;
     }
 
     .project {
-      background: white;
-      margin: 10px auto;
+      border: 1px solid #ddd;
       padding: 15px;
-      max-width: 400px;
-      border-radius: 8px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      margin-top: 10px;
+      border-radius: 6px;
     }
 
     footer {
-      margin-top: 30px;
+      background-color: #f4a6b5;
       padding: 15px;
-      background: #222;
-      color: white;
-      font-size: 0.9rem;
-    }
-
-    a {
-      color: #0077cc;
-      text-decoration: none;
-    }
-
-    a:hover {
-      text-decoration: underline;
-    }
-
-    @media (max-width: 600px) {
-      h1 {
-        font-size: 2rem;
-      }
+      margin-top: 30px;
     }
   </style>
 </head>
@@ -74,37 +46,40 @@
 <body>
 
   <header>
-    <h1>Hi, I'm Toya 👋</h1>
-    <p>IT student focused on networking, cybersecurity, and building simple, functional websites.</p>
+    <h1>Hi, I'm Toya</h1>
+    <p>Computer Information Technology student learning web development, networking, and cybersecurity.</p>
   </header>
 
-  <div class="container">
+  <section>
     <h2>About Me</h2>
     <p>
-      I'm currently studying Computer Information Technology and learning how to build and deploy websites.
-      This portfolio is part of my coursework and shows some of the skills I’ve been working on.
+      I am currently studying Computer Information Technology. I am learning how to build websites,
+      work with networking tools, and improve my technical skills. This portfolio was created as part
+      of my coursework.
     </p>
+  </section>
 
-    <div class="projects">
-      <h2>Projects</h2>
+  <section>
+    <h2>Projects</h2>
 
-      <div class="project">
-        <h3>Portfolio Website</h3>
-        <p>This site was built using HTML and CSS and deployed using GitHub Pages.</p>
-      </div>
-
-      <div class="project">
-        <h3>Networking Labs</h3>
-        <p>Completed labs using Cisco Packet Tracer to understand network configurations.</p>
-      </div>
+    <div class="project">
+      <h3>Portfolio Website</h3>
+      <p>This website was built using HTML and CSS and published online using GitHub Pages.</p>
     </div>
 
+    <div class="project">
+      <h3>Networking Labs</h3>
+      <p>I completed basic networking labs using Cisco Packet Tracer.</p>
+    </div>
+  </section>
+
+  <section>
     <h2>Contact</h2>
     <p>Email: yourname@email.com</p>
-  </div>
+  </section>
 
   <footer>
-    <p>© 2026 Toya | Student Portfolio</p>
+    <p>2026 Toya Portfolio</p>
   </footer>
 
 </body>
